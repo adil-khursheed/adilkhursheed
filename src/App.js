@@ -2,6 +2,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SkillSection from './components/SkillSection';
 import ProjectSection from './components/ProjectSection';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
         <Hero />
         <SkillSection />
         <ProjectSection />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
