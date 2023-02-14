@@ -5,16 +5,18 @@ const Contact = () => {
   const [formState, setFormState] = useState({});
 
   const submitHandler = (e) => {
+    e.preventDefault();
     const config = {
       SecureToken: '57b92cfd-664f-47a5-9279-8236ec06d655',
-      To: 'them@website.com',
-      From: "you@isp.com",
-      Subject: "This is the subject",
-      Body: "And this is the body"
+      To: 'adilkhursheed60@gmail.com',
+      From: formState.email,
+      Subject: "Mail From Personal Portfolio Website",
+      Body: formState.message
     };
     if (window.Email) {
-      window.Email.send(config);
+      window.Email.send(config).then(() => alert("Email sent successfully!"))
     }
+    setFormState('')
   }
 
   const changeHandler = (e) => {

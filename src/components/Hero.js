@@ -24,10 +24,13 @@ const Hero = () => {
           <div className='hidden lg:flex gap-6 max-w-md mb-6'>
             {socials.map((social) => (
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href={social.href}
                 className='flex flex-col text-emerald-500 hover:scale-110 transition-all duration-300'
               >
                 <span>{social.icon}</span>
+
               </a>
             ))}
           </div>
