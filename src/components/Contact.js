@@ -4,15 +4,17 @@ const Contact = () => {
 
   const [formState, setFormState] = useState({});
 
-  const config = {
-    Username: 'adilkhursheed60@gmail.com',
-    Password: 'A096BCD417ADA4A82C6BC011A5D96EB60F64',
-    Host: 'smtp.elasticemail.com',
-    Port: 2525,
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+  const submitHandler = (e) => {
+    const config = {
+      SecureToken: '57b92cfd-664f-47a5-9279-8236ec06d655',
+      To: 'them@website.com',
+      From: "you@isp.com",
+      Subject: "This is the subject",
+      Body: "And this is the body"
+    };
+    if (window.Email) {
+      window.Email.send(config);
+    }
   }
 
   const changeHandler = (e) => {
@@ -26,7 +28,7 @@ const Contact = () => {
           <h2 className='text-white font-semibold text-2xl uppercase mb-5 md:text-4xl'>Contact Me</h2>
           <p className='text-slate-300 text-sm'>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
         </div>
-        <form action="" method="post">
+        <form onSubmit={submitHandler}>
           <div className='flex flex-col gap-3 max-w-md w-full'>
           <input
             type="text"
@@ -35,6 +37,7 @@ const Contact = () => {
             placeholder='Name'
             className='w-full rounded-sm bg-transparent py-4 px-3 border-b-2 border-slate-600 text-slate-200 outline-none'
             onChange={changeHandler}
+            value={formState.name || ''}
           />
           <input
             type="email"
@@ -42,7 +45,8 @@ const Contact = () => {
             id="email"
             placeholder='Email'
             className='w-full rounded-sm bg-transparent py-4 px-3 border-b-2 border-slate-600 text-slate-200 outline-none'
-            onChange={changeHandler}
+              onChange={changeHandler}
+              value={formState.email || ''}
           />
           <textarea
             name="message"
@@ -51,7 +55,8 @@ const Contact = () => {
             rows="6"
             placeholder='Message'
             className='w-full rounded-sm bg-transparent py-4 px-3 border-b-2 border-slate-600 text-slate-200 outline-none'
-            onChange={changeHandler}
+              onChange={changeHandler}
+              value={formState.message || ''}
           />
          </div>
           <button
