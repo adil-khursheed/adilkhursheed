@@ -4,7 +4,7 @@ import {Skills} from '../Skills';
 const SkillSection = () => {
   return (
     <>
-      <section id="skills" className='mb-24'>
+      <section name="skills" className='mb-24'>
         <h2 className='text-white font-semibold text-2xl text-center uppercase mb-5'>Skills</h2>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-3 mt-8'>
         {Skills.map((skill) => (

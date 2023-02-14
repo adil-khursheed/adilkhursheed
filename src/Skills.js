@@ -2,6 +2,10 @@ import Html from './images/html5.svg';
 import CSS from './images/css3.svg';
 import JavaScript from './images/javascript.svg';
 import React from './images/react.svg';
+import Github from './images/github.svg';
+import TailwindCSS from './images/tailwindcss.svg';
+import Firebase from './images/firebase.svg';
+import Redux from './images/redux.svg';
 
 
 const Skills = [
@@ -30,6 +34,34 @@ const Skills = [
         id:4,
         image: React,
         title: "React Js",
+        level: "Beginner",
+    },
+
+    {
+        id:5,
+        image: Github,
+        title: "Github",
+        level: "Intermediate",
+    },
+
+    {
+        id:6,
+        image: TailwindCSS,
+        title: "Tailwind CSS",
+        level: "Intermediate",
+    },
+
+    {
+        id:7,
+        image: Firebase,
+        title: "Firebase",
+        level: "Intermediate",
+    },
+
+    {
+        id:8,
+        image: Redux,
+        title: "Redux",
         level: "Beginner",
     },
 ]
