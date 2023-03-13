@@ -6,22 +6,22 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const socials = [
     {
         name: 'GitHub',
-        icon: <GitHubIcon sx={{fontSize: 30}} />,
+        icon: <GitHubIcon sx={{fontSize: 25}} />,
         href: 'https://github.com/adil-khursheed',
     },
     {
         name: 'Instagram',
-        icon: <InstagramIcon sx={{fontSize: 30}} />,
+        icon: <InstagramIcon sx={{fontSize: 25}} />,
         href: 'https://www.instagram.com/sayed_adil_/',
     },
     {
         name: 'LinkedIn',
-        icon: <LinkedInIcon sx={{fontSize: 30}} />,
+        icon: <LinkedInIcon sx={{fontSize: 25}} />,
         href: 'https://www.linkedin.com/in/adil-khursheed-16535615b/',
     },
     {
         name: 'Twitter',
-        icon: <TwitterIcon sx={{fontSize: 30}} />,
+        icon: <TwitterIcon sx={{fontSize: 25}} />,
         href: 'https://twitter.com/AdilSayed2',
     },
 ]

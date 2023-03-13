@@ -12,7 +12,7 @@ const SkillSection = () => {
             key={skill.id}
             className='card bg-white/10 backdrop-blur-lg flex flex-col items-center p-4 rounded-lg shadow shadow-slate-200'
           >
-            <img src={skill.image} className='w-20' />
+            <img src={skill.image} className='w-20' alt={skill.title} />
             <h4 className='text-lg text-white font-medium'>
               {skill.title}
             </h4>

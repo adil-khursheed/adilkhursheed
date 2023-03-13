@@ -24,6 +24,7 @@ const Hero = () => {
           <div className='hidden lg:flex gap-6 max-w-md mb-6'>
             {socials.map((social) => (
               <a
+                key={social.name}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={social.href}

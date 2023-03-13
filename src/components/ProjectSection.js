@@ -35,7 +35,7 @@ const ProjectSection = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className='w-full h-44 object-cover rounded-md hover:scale-105 duration-300'
+                className='w-full h-52 object-cover rounded-md hover:scale-105 duration-300'
               />
               <h3 className='text-white text-lg font-bold mt-3 mb-3'>{project.title}</h3>
               <div className='flex gap-3 mb-4'>
