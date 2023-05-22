@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <section
         name="home"
-        className="w-full py-24 flex flex-col-reverse items-center gap-5 md:flex-row md:justify-between">
+        className="w-full py-24 flex flex-col-reverse items-center gap-5 md:gap-4 md:flex-row md:justify-between">
         <div>
           <h1 className="text-white text-3xl md:text-4xl lg:text-5xl text-center font-bold md:text-left leading-snug md:leading-snug lg:leading-snug mb-6">
             Nice to meet you!👋🏻 <br />
@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="max-w-xs bg-white/10 backdrop-blur-lg rounded-lg">
+        <div className="w-60 h-60 md:max-w-xs md:w-full md:h-full bg-white/10 backdrop-blur-lg rounded-lg">
           <img
             src={HeroImage}
             alt="Adil Khursheed"
