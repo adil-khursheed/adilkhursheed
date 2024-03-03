@@ -13,7 +13,7 @@ function App() {
     <div className=" relative bg-gradient-to-br from-slate-700 to-black">
       <Header />
       <ToastContainer />
-      <main className="max-w-4xl mx-auto px-5">
+      <main className="max-w-7xl mx-auto px-5">
         <Hero />
         <SocialLinks />
         <SkillSection />

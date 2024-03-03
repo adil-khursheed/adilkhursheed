@@ -26,7 +26,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <section name="projects" className="mb-24">
+      <section name="projects" className="my-24 w-full">
         <h2 className="text-white font-semibold text-2xl text-center uppercase mb-5">
           Projects
         </h2>
