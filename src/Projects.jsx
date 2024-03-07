@@ -7,10 +7,19 @@ import DisneyPlusClone from "./images/disney-plus.jpg";
 import calculator from "./images/calculator.jpg";
 import tipCalculator from "./images/tip-calculator.jpg";
 import signUpForm from "./images/sign-up-form.jpg";
+import PlayPort from "./images/playport.jpg";
 
 const Projects = [
   {
     id: 1,
+    image: PlayPort,
+    title: "PlayPort",
+    techStack: "ReactJs, ExpressJS, NodeJS, MongoDB",
+    code: "https://github.com/adil-khursheed/playport",
+    live: "https://playport.vercel.app",
+  },
+  {
+    id: 2,
     image: DisneyPlusClone,
     title: "Disney+ Clone",
     techStack: "JavaScript, ReactJs",
@@ -18,7 +27,7 @@ const Projects = [
     live: "https://disneyplusclone-d0c28.web.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: ProductPage,
     title: "E-commerce Product Page",
     techStack: "JavaScript, ReactJs",
@@ -26,7 +35,7 @@ const Projects = [
     live: "https://product-page-blue.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: LittleLemon,
     title: "Little Lemon",
     techStack: "JavaScript, ReactJs",
@@ -34,7 +43,7 @@ const Projects = [
     live: "https://little-lemon-tau.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: calculator,
     title: "Calculator",
     techStack: "HTML, CSS, JavaScript",
@@ -42,7 +51,7 @@ const Projects = [
     live: "https://calculator-roan-ten.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: tipCalculator,
     title: "Tip Calculator",
     techStack: "HTML, CSS, JavaScript",
@@ -50,7 +59,7 @@ const Projects = [
     live: "https://tip-calculator-ten-sepia.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: signUpForm,
     title: "Sign Up Form",
     techStack: "HTML, CSS, JavaScript",
@@ -58,7 +67,7 @@ const Projects = [
     live: "https://sign-up-form-jade.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: NewsHomepage,
     title: "News Homepage",
     techStack: "HTML, CSS, JavaScript",
@@ -66,7 +75,7 @@ const Projects = [
     live: "https://news-homepage-beta.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: Notifications,
     title: "Notifications Page",
     techStack: "HTML, CSS, JavaScript",
@@ -74,7 +83,7 @@ const Projects = [
     live: "https://notifications-page-sigma.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     image: TestimonialPage,
     title: "Testimonial Page",
     techStack: "HTML, CSS",
