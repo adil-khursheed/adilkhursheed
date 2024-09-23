@@ -6,6 +6,7 @@ import Github from "./images/github.svg";
 import TailwindCSS from "./images/tailwindcss.svg";
 import Firebase from "./images/firebase.svg";
 import Redux from "./images/redux.svg";
+import NextJS from "./images/nextjs.svg";
 
 const Skills = [
   {
@@ -38,22 +39,22 @@ const Skills = [
 
   {
     id: 5,
+    image: NextJS,
+    title: "Next Js",
+    level: "Beginner",
+  },
+
+  {
+    id: 6,
     image: Github,
     title: "Github",
     level: "Intermediate",
   },
 
   {
-    id: 6,
+    id: 7,
     image: TailwindCSS,
     title: "Tailwind CSS",
-    level: "Intermediate",
-  },
-
-  {
-    id: 7,
-    image: Firebase,
-    title: "Firebase",
     level: "Intermediate",
   },
 
@@ -62,6 +63,13 @@ const Skills = [
     image: Redux,
     title: "Redux",
     level: "Beginner",
+  },
+
+  {
+    id: 9,
+    image: Firebase,
+    title: "Firebase",
+    level: "Intermediate",
   },
 ];
 

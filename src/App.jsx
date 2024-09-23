@@ -7,18 +7,22 @@ import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
-    <div className=" relative bg-gradient-to-br from-slate-700 to-black">
+    <div className=" relative bg-black">
       <Header />
       <ToastContainer />
-      <main className="max-w-7xl mx-auto px-5">
+      <main>
         <Hero />
-        <SocialLinks />
-        <SkillSection />
-        <ProjectSection />
-        <Contact />
+        <div className="max-w-7xl mx-auto">
+          <SocialLinks />
+          <WorkExperience />
+          <SkillSection />
+          <ProjectSection />
+          <Contact />
+        </div>
       </main>
 
       <footer className="max-w-4xl mx-auto px-5 py-5 border-t-2 border-slate-500">

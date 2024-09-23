@@ -38,7 +38,7 @@ const Contact = () => {
     <>
       <section
         name="contact"
-        className="flex flex-col items-center justify-between gap-8 md:flex-row md:items-start md:justify-center mb-24">
+        className="flex flex-col items-center justify-between gap-8 md:flex-row md:items-start md:justify-center mb-24 px-5">
         <div className="md:max-w-sm mt-4 text-center md:text-left">
           <h2 className="text-white font-semibold text-2xl uppercase mb-5 md:text-4xl">
             Contact Me

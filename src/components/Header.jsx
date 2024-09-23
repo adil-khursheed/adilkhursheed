@@ -3,6 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-scroll";
 import useScrollDirection from "../customHook/ScrollDirection";
+import { cn } from "../lib/utils";
 
 const Header = () => {
   const [toggleNav, setToggeleNav] = useState(false);
@@ -31,10 +32,11 @@ const Header = () => {
   return (
     <>
       <header
-        className={`fixed w-full ${
+        className={cn(
+          `fixed w-full backdrop-blur-lg bg-white/5 transition-all duration-500 z-20`,
           scrollDirection === "down" ? "-top-16" : "top-0"
-        } backdrop-blur-lg bg-black/40 transition-all duration-500 z-20`}>
-        <nav className="flex justify-between h-16 items-center max-w-4xl mx-auto px-5">
+        )}>
+        <nav className="flex justify-between h-16 items-center max-w-7xl mx-auto px-5">
           <div className="z-20">
             <h2 className="text-2xl font-extrabold text-white">Adil.</h2>
           </div>
