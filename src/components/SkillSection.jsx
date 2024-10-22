@@ -41,8 +41,12 @@ const SkillSection = () => {
 
         <div className="relative">
           {/* <div className="w-40 h-64 skew-x-[45deg] rounded-full bg-emerald-400/30 absolute left-80 top-3 -z-50 blur-lg"></div> */}
-          <InfiniteMovingCards items={Skills} direction="right" speed="slow" />
-          <InfiniteMovingCards items={Skills} direction="left" speed="slow" />
+          <InfiniteMovingCards
+            items={Skills}
+            direction="right"
+            speed="normal"
+          />
+          <InfiniteMovingCards items={Skills} direction="left" speed="normal" />
         </div>
       </div>
     </section>
