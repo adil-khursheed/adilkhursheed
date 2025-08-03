@@ -24,7 +24,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-white text-center text-md md:text-left mb-6 max-w-xl">
-              Based in India, I'm a MERN stack web developer passionate about
+              Based in India, I'm a Full Stack Developer passionate about
               building accessible web apps that users love.
             </p>
             <div className="hidden lg:flex gap-6 max-w-md mb-6">
